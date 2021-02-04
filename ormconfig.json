@@ -11,3 +11,18 @@
     "migrationsDir": "./src/database/migrations"
   }
 }
+
+/** {
+  "type": "postgres",
+  "host": "192.168.15.2",
+  "port": 5432,
+  "username": "postgres",
+  "password": "dev@@2021",
+  "database": "gostack_desafio06",
+  "entities": ["./src/models/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
+*/
